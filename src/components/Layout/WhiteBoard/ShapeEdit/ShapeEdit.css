@@ -1,0 +1,50 @@
+.ShapeEdit {
+  background: #bdc3c7;
+  position: absolute;
+  display: inline;
+  overflow-y: scroll;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.ShapeEditElement {
+  width: 95%;
+  height: 20%;
+  margin: auto;
+  margin-top: 2%;
+  background: #e5e7e9;
+}
+
+.ShapeEditDelete {
+  height: 100%;
+  width: 100%;
+  background: red;
+  color: white;
+}
+
+/* width */
+.ShapeEdit::-webkit-scrollbar {
+  width: 6%;
+}
+
+/* Track */
+.ShapeEdit::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #edbb99;
+  border-radius: 10px;
+}
+
+/* Handle */
+.ShapeEdit::-webkit-scrollbar-thumb {
+  background: #273746;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.ShapeEdit::-webkit-scrollbar-thumb:hover {
+  background: #808b96;
+}
+
+.Slider {
+  width: 90%;
+  margin: auto;
+}

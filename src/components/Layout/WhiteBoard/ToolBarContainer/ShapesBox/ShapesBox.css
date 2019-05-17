@@ -1,0 +1,17 @@
+.ShapesBox {
+  height: 90%;
+  width: 60%;
+  margin: 1%;
+  background: #ebedef;
+  display: inline-block;
+  position: relative;
+}
+
+.shapeBox {
+  margin: 1%;
+  height: 20px;
+  width: 20px;
+  border: black;
+  display: inline-block;
+  position: relative;
+}

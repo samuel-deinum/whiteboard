@@ -1,0 +1,12 @@
+.AddButton {
+  position: relative;
+  height: 75%;
+  width: 5%;
+  margin: 0.75%;
+  margin-left: 0;
+  background: lime;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}

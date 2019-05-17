@@ -1,0 +1,11 @@
+.DrawButton {
+  height: 90%;
+  width: 15%;
+  margin: 1%;
+  background: #0eb1d8;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1em;
+}

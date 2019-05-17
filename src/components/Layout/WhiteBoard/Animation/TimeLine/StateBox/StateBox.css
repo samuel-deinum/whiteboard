@@ -1,0 +1,21 @@
+.StateBox{
+    height: 20px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    padding: 4px;
+    background: darkmagenta;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.StateBox:hover{
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

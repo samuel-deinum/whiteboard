@@ -1,0 +1,27 @@
+.ToolBarContainerOpen {
+  position: absolute;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: lightgrey;
+  transform: translateY(90%);
+  -webkit-transition: transform 0.5s;
+  display: inline-block;
+}
+
+.ToolBarContainerOpen:hover {
+  transform: translateY(0);
+}
+
+.ToolBarContainerClose {
+  position: absolute;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: lightgrey;
+  transform: translateY(90%);
+  -webkit-transition: transform 0.5s;
+  display: inline-block;
+}

@@ -1,0 +1,21 @@
+.Animation {
+  position: absolute;
+  height: 12%;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  -webkit-transition: transform 0.5s;
+  display: inline-block;
+}
+
+.AnimationOpen {
+  position: absolute;
+  height: 12%;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(0);
+  -webkit-transition: transform 0.5s;
+  display: inline-block;
+}

@@ -1,0 +1,10 @@
+.DrawBox {
+  height: 90%;
+  width: 100%;
+}
+
+.DrawBox svg {
+  height: 100%;
+  width: 100%;
+  cursor: crosshair;
+}
